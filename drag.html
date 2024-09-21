@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/drag.css">
+</head>
+
+<body>
+    <div class="contaienr">
+        <button id="addButton">添加</button>
+
+        <!-- 模态框 -->
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <div class="form-group">
+                    <label for="nameInput">名称：</label>
+                    <input type="text" id="nameInput" required>
+                </div>
+                <div class="form-group">
+                    <label for="colorInput">颜色：</label>
+                    <input type="text" id="colorInput" placeholder="例如：rgba(255, 0, 0, 0.5)">
+                </div>
+                <div class="form-group">
+                    <label for="heightInput">高度：</label>
+                    <input type="text" id="heightInput" required>
+                </div>
+                <div class="form-group">
+                    <label for="widthInput">宽度：</label>
+                    <input type="text" id="widthInput" required>
+                </div>
+                <button id="submitButton">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/drag.js"></script>
+</body>
+
+</html>
