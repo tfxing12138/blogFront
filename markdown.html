@@ -10,9 +10,11 @@
 <body>
     <div class="container">
         <h1>Markdown Blog</h1>
-        <textarea id="markdown-input" placeholder="Write your markdown here..."></textarea>
         <button id="convert-button">Convert</button>
-        <div id="html-output" class="output"></div>
+        <div class="flex-container">
+            <textarea id="markdown-input" placeholder="Write your markdown here..."></textarea>
+            <div id="html-output" class="output"></div>
+        </div>
     </div>
 
     <script src="./js/markdown.js"></script>
