@@ -45,7 +45,6 @@ li{
 .contain{
     margin-top: 10.8vh;
     height: 89.2vh;
-    background-color: #f2f2f2;
 }
 
 .pc-nav{
@@ -93,4 +92,40 @@ li{
     color: #666666;
     font-size: 14px;
     margin-top: 8px;
+}
+
+.pc-box{
+    height: 6000px;
+}
+
+
+.wrap{
+    width: 70%;
+    height: 100%;
+    margin-left: 20%;
+    padding-top: 40px;
+}
+
+.home-top {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 70%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.user-info{
+    width: 25%;
+    height: 100%;
+    background-color: #ccc;
 }
