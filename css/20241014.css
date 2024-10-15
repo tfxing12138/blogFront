@@ -117,6 +117,8 @@ li{
     width: 70%;
     height: 100%;
     background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .banner img{
@@ -127,5 +129,70 @@ li{
 .user-info{
     width: 25%;
     height: 100%;
+}
+
+.user-info-back-top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: skyblue;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.user-info-back-top img{
+    width: 30%;
+    height: 65%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: 25%;
+}
+
+.user-info-back-bottom{
+    width: 100%;
+    height: 50%;
     background-color: #ccc;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+}
+
+.user-info-back-bottom p {
+    padding-top: 18%;
+}
+
+.user-info-back-bottom div{
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.about-me{
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.about-me a{
+    color: #fff;
+}
+
+.contact-me {
+    background-color: #fff;
+    border: 1px solid #000000;
+    margin-left: 30px;
+}
+
+.contact-me a {
+    color: #000000;
+}
+
+.works{
+    margin-top: 30px;
+}
+
+.works h1{
+    
 }
